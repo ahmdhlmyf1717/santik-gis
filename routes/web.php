@@ -3,7 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\GeoDataController;
 
-Route::get('/map', function () {
+Route::get('/', function () {
     return view('map');
 });
 
